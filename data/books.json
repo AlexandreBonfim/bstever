@@ -1,0 +1,802 @@
+[
+    {
+        "BookId": 1,
+        "Title": "Da Vinci Code, The",
+        "AuthorId": 8,
+        "Author": "Brown, Dan",
+        "PublicationYear": 2004,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 2,
+        "Title": "Harry Potter and the Deathly Hallows",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 2007,
+        "Genres": ["Children\\'s", "Fiction"]
+    },
+    {
+        "BookId": 3,
+        "Title": "Harry Potter and the Philosopher\\'s Stone",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 1997,
+        "Genres": ["Children\\'s", "Fiction"]
+    },
+    {
+        "BookId": 4,
+        "Title": "Harry Potter and the Order of the Phoenix",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 2003,
+        "Genres": ["Children\\'s","Fiction"]
+    },
+    {
+        "BookId": 5,
+        "Title": "Fifty Shades of Grey",
+        "AuthorId": 30,
+        "Author": "James, E. L.",
+        "PublicationYear": 2012,
+        "Genres": ["Romance", "Sagas"]
+    },
+    {
+        "BookId": 6,
+        "Title": "Harry Potter and the Goblet of Fire",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 2001,
+        "Genres": ["Children\\'s", "Fiction"]
+    },
+    {
+        "BookId": 7,
+        "Title": "Harry Potter and the Chamber of Secrets",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 1999,
+        "Genres": ["Children\\'s", "Fiction"]
+    },
+    {
+        "BookId": 8,
+        "Title": "Harry Potter and the Prisoner of Azkaban",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 2000,
+        "Genres": ["Children\\'s", "Fiction"]
+    },
+    {
+        "BookId": 9,
+        "Title": "Angels and Demons",
+        "AuthorId": 8,
+        "Author": "Brown, Dan",
+        "PublicationYear": 2003,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 10,
+        "Title": "Harry Potter and the Half-blood Prince, Children\\'s Edition",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 2005,
+        "Genres": ["Children\\'s", "Fiction"]
+    },
+    {
+        "BookId": 11,
+        "Title": "Fifty Shades Darker",
+        "AuthorId": 30,
+        "Author": "James, E. L.",
+        "PublicationYear": 2012,
+        "Genres": ["Romance", "Sagas"]
+    },
+    {
+        "BookId": 12,
+        "Title": "Twilight",
+        "AuthorId": 43,
+        "Author": "Meyer, Stephenie",
+        "PublicationYear": 2006,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 13,
+        "Title": "Girl with the Dragon Tattoo, The, Millennium Trilogy",
+        "AuthorId": 32,
+        "Author": "Larsson, Stieg",
+        "PublicationYear": 2008,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 14,
+        "Title": "Fifty Shades Freed",
+        "AuthorId": 30,
+        "Author": "James, E. L.",
+        "PublicationYear": 2012,
+        "Genres": ["Romance", "Sagas"]
+    },
+    {
+        "BookId": 15,
+        "Title": "Lost Symbol, The",
+        "AuthorId": 8,
+        "Author": "Brown, Dan",
+        "PublicationYear": 2009,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 16,
+        "Title": "New Moon",
+        "AuthorId": 43,
+        "Author": "Meyer, Stephenie",
+        "PublicationYear": 2007,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 17,
+        "Title": "Deception Point",
+        "AuthorId": 8,
+        "Author": "Brown, Dan",
+        "PublicationYear": 2004,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 18,
+        "Title": "Eclipse",
+        "AuthorId": 43,
+        "Author": "Meyer, Stephenie",
+        "PublicationYear": 2008,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 19,
+        "Title": "Lovely Bones, The",
+        "AuthorId": 58,
+        "Author": "Sebold, Alice",
+        "PublicationYear": 2003,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 20,
+        "Title": "Curious Incident of the Dog in the Night-time, The",
+        "AuthorId": 23,
+        "Author": "Haddon, Mark",
+        "PublicationYear": 2004,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 21,
+        "Title": "Digital Fortress",
+        "AuthorId": 8,
+        "Author": "Brown, Dan",
+        "PublicationYear": 2004,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 22,
+        "Title":" Short History of Nearly Everything, A",
+        "AuthorId": 9,
+        "Author": "Bryson, Bill",
+        "PublicationYear": 2004,
+        "Genres": ["Popular Science"]
+    },
+    {
+        "BookId": 23,
+        "Title": "Girl Who Played with Fire, The, Millennium Trilogy",
+        "AuthorId": 32,
+        "Author": "Larsson, Stieg",
+        "PublicationYear": 2009,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 24,
+        "Title": "Breaking Dawn",
+        "AuthorId": 43,
+        "Author": "Meyer, Stephenie",
+        "PublicationYear": 2008,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 25,
+        "Title": "Very Hungry Caterpillar, The, The Very Hungry Caterpillar",
+        "AuthorId": 10,
+        "Author": "Carle, Eric",
+        "PublicationYear": 1994,
+        "Genres": ["Picture Books"]
+    },
+    {
+        "BookId": 26,
+        "Title": "Gruffalo, The",
+        "AuthorId": 15,
+        "Author": "Donaldson, Julia",
+        "PublicationYear": 1999,
+        "Genres": ["Picture Books"]
+    },
+    {
+        "BookId": 27,
+        "Title": "Jamie\\'s 30-Minute Meals",
+        "AuthorId": 50,
+        "Author": "Oliver, Jamie",
+        "PublicationYear": 2010,
+        "Genres": ["Food", "Drink", "General"]
+    },
+    {
+        "BookId": 28,
+        "Title": "Kite Runner, The",
+        "AuthorId": 29,
+        "Author": "Hosseini, Khaled",
+        "PublicationYear": 2004,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 29,
+        "Title": "One Day",
+        "AuthorId": 47,
+        "Author": "Nicholls, David",
+        "PublicationYear": 2010,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 30,
+        "Title": "Thousand Splendid Suns, A",
+        "AuthorId": 29,
+        "Author": "Hosseini, Khaled",
+        "PublicationYear": 2007,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 31,
+        "Title": "Girl Who Kicked the Hornets\\' Nest, The, Millennium Trilogy",
+        "AuthorId": 32,
+        "Author": "Larsson, Stieg",
+        "PublicationYear": 2010,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 32,
+        "Title": "Time Traveler\\'s Wife, The",
+        "AuthorId": 48,
+        "Author": "Niffenegger, Audrey",
+        "PublicationYear": 2004,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 33,
+        "Title": "Atonement",
+        "AuthorId": 40,
+        "Author": "McEwan, Ian",
+        "PublicationYear": 2002,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 34,
+        "Title": "Bridget Jones\\'s Diary, A Novel",
+        "AuthorId": 18,
+        "Author": "Fielding, Helen",
+        "PublicationYear": 1997,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 35,
+        "Title": "World According to Clarkson, The",
+        "AuthorId": 11,
+        "Author": "Clarkson, Jeremy",
+        "PublicationYear": 2005,
+        "Genres": ["Humour", "Collections", "General"]
+    },
+    {
+        "BookId": 36,
+        "Title": "Captain Corelli\\'s Mandolin",
+        "AuthorId": 4,
+        "Author": "Bernieres, Louis de",
+        "PublicationYear": 1995,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 37,
+        "Title": "Sound of Laughter, The",
+        "AuthorId": 31,
+        "Author": "Kay, Peter",
+        "PublicationYear": 2006,
+        "Genres": ["Autobiography", "General"]
+    },
+    {
+        "BookId": 38,
+        "Title": "Life of Pi",
+        "AuthorId": 37,
+        "Author": "Martel, Yann",
+        "PublicationYear": 2003,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 39,
+        "Title": "Billy Connolly",
+        "AuthorId": 61,
+        "Author": "Stephenson, Pamela",
+        "PublicationYear": 2002,
+        "Genres": ["Biography", "The Arts"]
+    },
+    {
+        "BookId": 40,
+        "Title": "Child Called It, A",
+        "AuthorId": 53,
+        "Author": "Pelzer, Dave",
+        "PublicationYear": 2001,
+        "Genres": ["Autobiography", "General"]
+    },
+    {
+        "BookId": 41,
+        "Title": "Gruffalo\\'s Child, The",
+        "AuthorId": 15,
+        "Author": "Donaldson, Julia",
+        "PublicationYear": 2005,
+        "Genres": ["Picture Books"]
+    },
+    {
+        "BookId": 42,
+        "Title": "Angela\\'s Ashes, A Memoir of a Childhood",
+        "AuthorId": 39,
+        "Author": "McCourt, Frank",
+        "PublicationYear": 1997,
+        "Genres": ["Autobiography", "General"]
+    },
+    {
+        "BookId": 43,
+        "Title": "Birdsong",
+        "AuthorId": 17,
+        "Author": "Faulks, Sebastian",
+        "PublicationYear": 1994,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 44,
+        "Title": "Northern Lights, His Dark Materials S.",
+        "AuthorId": 55,
+        "Author": "Pullman, Philip",
+        "PublicationYear": 1998,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 45,
+        "Title": "Labyrinth",
+        "AuthorId": 46,
+        "Author": "Mosse, Kate",
+        "PublicationYear": 2005,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 46,
+        "Title": "Harry Potter and the Half-blood Prince",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 2005,
+        "Genres": ["Science", "Fiction", "Fantasy"]
+    },
+    {
+        "BookId": 47,
+        "Title": "Help, The",
+        "AuthorId": 62,
+        "Author": "Stockett, Kathryn",
+        "PublicationYear": 2010,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 48,
+        "Title": "Man and Boy",
+        "AuthorId": 52,
+        "Author": "Parsons, Tony",
+        "PublicationYear": 2000,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 49,
+        "Title": "Memoirs of a Geisha",
+        "AuthorId": 20,
+        "Author": "Golden, Arthur",
+        "PublicationYear": 1998,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 50,
+        "Title": "No.1 Ladies\\' Detective Agency, The, No.1 Ladies\\' Detective Agency S.",
+        "AuthorId": 38,
+        "Author": "McCall Smith, Alexander",
+        "PublicationYear": 2003,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 51,
+        "Title": "Island, The",
+        "AuthorId": 27,
+        "Author": "Hislop, Victoria",
+        "PublicationYear": 2006,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 52,
+        "Title": "PS,  I Love You",
+        "AuthorId": 1,
+        "Author": "Ahern, Cecelia",
+        "PublicationYear": 2004,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 53,
+        "Title": "You are What You Eat, The Plan That Will Change Your Life",
+        "AuthorId": 41,
+        "Author": "McKeith, Gillian",
+        "PublicationYear": 2004,
+        "Genres": ["Fitness", "Diet"]
+    },
+    {
+        "BookId": 54,
+        "Title": "Shadow of the Wind, The",
+        "AuthorId": 66,
+        "Author": "Zafon, Carlos Ruiz",
+        "PublicationYear": 2005,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 55,
+        "Title": "Tales of Beedle the Bard, The",
+        "AuthorId": 56,
+        "Author": "Rowling, J.K.",
+        "PublicationYear": 2008,
+        "Genres": ["Children\\'s", "Fiction"]
+    },
+    {
+        "BookId": 56,
+        "Title": "Broker, The",
+        "AuthorId": 22,
+        "Author": "Grisham, John",
+        "PublicationYear": 2005,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 57,
+        "Title": "Dr. Atkins\\' New Diet Revolution, The No-hunger,  Luxurious Weight Loss P",
+        "AuthorId": 3,
+        "Author": "Atkins, Robert C.",
+        "PublicationYear": 2003,
+        "Genres": ["Fitness", "Diet"]
+    },
+    {
+        "BookId": 58,
+        "Title": "Subtle Knife, The, His Dark Materials S.",
+        "AuthorId": 55,
+        "Author": "Pullman, Philip",
+        "PublicationYear": 1998,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 59,
+        "Title": "Eats,  Shoots and Leaves, The Zero Tolerance Approach to Punctuation",
+        "AuthorId": 64,
+        "Author": "Truss, Lynne",
+        "PublicationYear": 2003,
+        "Genres": ["Usage", "Writing Guides"]
+    },
+    {
+        "BookId": 60,
+        "Title": "Delia\\'s How to Cook, (Bk.1)",
+        "AuthorId": 59,
+        "Author": "Smith, Delia",
+        "PublicationYear": 1998,
+        "Genres": ["Food", "Drink", "General"]
+    },
+    {
+        "BookId": 61,
+        "Title": "Chocolat",
+        "AuthorId": 24,
+        "Author": "Harris, Joanne",
+        "PublicationYear": 2000,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 62,
+        "Title": "Boy in the Striped Pyjamas, The",
+        "AuthorId": 6,
+        "Author": "Boyne, John",
+        "PublicationYear": 2008,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 63,
+        "Title": "My Sister\\'s Keeper",
+        "AuthorId": 54,
+        "Author": "Picoult, Jodi",
+        "PublicationYear": 2004,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 64,
+        "Title": "Amber Spyglass, The, His Dark Materials S.",
+        "AuthorId": 55,
+        "Author": "Pullman, Philip",
+        "PublicationYear": 2001,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 65,
+        "Title": "To Kill a Mockingbird",
+        "AuthorId": 34,
+        "Author": "Lee, Harper",
+        "PublicationYear": 1989,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 66,
+        "Title": "Men are from Mars,  Women are from Venus, A Practical Guide for Improvin",
+        "AuthorId": 21,
+        "Author": "Gray, John",
+        "PublicationYear": 1993,
+        "Genres": ["Popular Culture", "Media", "General"]
+    },
+    {
+        "BookId": 67,
+        "Title": "Dear Fatty",
+        "AuthorId": 19,
+        "Author": "French, Dawn",
+        "PublicationYear": 2008,
+        "Genres": ["Autobiography", "The Arts"]
+    },
+    {
+        "BookId": 68,
+        "Title": "Short History of Tractors in Ukrainian, A",
+        "AuthorId": 36,
+        "Author": "Lewycka, Marina",
+        "PublicationYear": 2006,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 69,
+        "Title": "Hannibal",
+        "AuthorId": 26,
+        "Author": "Harris, Thomas",
+        "PublicationYear": 2000,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 70,
+        "Title": "Lord of the Rings, The",
+        "AuthorId": 63,
+        "Author": "Tolkien, J. R. R.",
+        "PublicationYear": 1995,
+        "Genres": ["Science", "Fiction", "Fantasy"]
+    },
+    {
+        "BookId": 71,
+        "Title": "Stupid White Men, ...and Other Sorry Excuses for the State of the Natio",
+        "AuthorId": 44,
+        "Author": "Moore, Michael",
+        "PublicationYear": 2002,
+        "Genres": ["Current Affairs", "Issues"]
+    },
+    {
+        "BookId": 72,
+        "Title": "Interpretation of Murder, The",
+        "AuthorId": 57,
+        "Author": "Rubenfeld, Jed",
+        "PublicationYear": 2007,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 73,
+        "Title": "Sharon Osbourne Extreme, My Autobiography",
+        "AuthorId": 51,
+        "Author": "Osbourne, Sharon",
+        "PublicationYear": 2005,
+        "Genres": ["Autobiography", "The Arts"]
+    },
+    {
+        "BookId": 74,
+        "Title": "Alchemist, The, A Fable About Following Your Dream",
+        "AuthorId": 12,
+        "Author": "Coelho, Paulo",
+        "PublicationYear": 1998,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 75,
+        "Title":" At My Mother\\'s Knee ..., and Other Low Joints",
+        "AuthorId": 49,
+        "Author": "O\\'Grady, Paul",
+        "PublicationYear": 2008,
+        "Genres": ["Autobiography", "The Arts"]
+    },
+    {
+        "BookId": 76,
+        "Title": "Notes from a Small Island",
+        "AuthorId": 9,
+        "Author": "Bryson, Bill",
+        "PublicationYear": 1996,
+        "Genres": ["Travel Writing"]
+    },
+    {
+        "BookId": 77,
+        "Title": "Return of the Naked Chef, The",
+        "AuthorId": 50,
+        "Author": "Oliver, Jamie",
+        "PublicationYear": 2000,
+        "Genres": ["Food", "Drink", "General"]
+    },
+    {
+        "BookId": 78,
+        "Title": "Bridget Jones,  The Edge of Reason",
+        "AuthorId": 18,
+        "Author": "Fielding, Helen",
+        "PublicationYear": 2000,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 79,
+        "Title": "Jamie\\'s Italy",
+        "AuthorId": 50,
+        "Author": "Oliver, Jamie",
+        "PublicationYear": 2005,
+        "Genres": ["Food", "General"]
+    },
+    {
+        "BookId": 80,
+        "Title": "I Can Make You Thin",
+        "AuthorId": 42,
+        "Author": "McKenna, Paul",
+        "PublicationYear": 2005,
+        "Genres": ["Fitness", "Diet"]
+    },
+    {
+        "BookId": 81,
+        "Title": "Down Under",
+        "AuthorId": 9,
+        "Author": "Bryson, Bill",
+        "PublicationYear": 2001,
+        "Genres": ["Travel Writing"]
+    },
+    {
+        "BookId": 82,
+        "Title": "Summons, The",
+        "AuthorId": 22,
+        "Author": "Grisham, John",
+        "PublicationYear": 2002,
+        "Genres": ["Crime", "Thriller", "Adventure"]
+    },
+    {
+        "BookId": 83,
+        "Title": "Small Island",
+        "AuthorId": 35,
+        "Author": "Levy, Andrea",
+        "PublicationYear": 2004,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 84,
+        "Title": "Nigella Express",
+        "AuthorId": 33,
+        "Author": "Lawson, Nigella",
+        "PublicationYear": 2007,
+        "Genres": ["Food", "Drink", "General"]
+    },
+    {
+        "BookId": 85,
+        "Title": "Brick Lane",
+        "AuthorId": 2,
+        "Author": "Ali, Monica",
+        "PublicationYear": 2004,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 86,
+        "Title": "Memory Keeper\\'s Daughter, The",
+        "AuthorId": 16,
+        "Author": "Edwards, Kim",
+        "PublicationYear": 2007,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 87,
+        "Title": "Room on the Broom",
+        "AuthorId": 15,
+        "Author": "Donaldson, Julia",
+        "PublicationYear": 2002,
+        "Genres": ["Picture Books"]
+    },
+    {
+        "BookId": 88,
+        "Title": "About a Boy",
+        "AuthorId": 28,
+        "Author": "Hornby, Nick",
+        "PublicationYear": 2002,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 89,
+        "Title": "My Booky Wook",
+        "AuthorId": 7,
+        "Author": "Brand, Russell",
+        "PublicationYear": 2007,
+        "Genres": ["Autobiography", "The Arts"]
+    },
+    {
+        "BookId": 90,
+        "Title": "God Delusion, The",
+        "AuthorId": 14,
+        "Author": "Dawkins, Richard",
+        "PublicationYear": 2007,
+        "Genres": ["Popular Science"]
+    },
+    {
+        "BookId": 91,
+        "Title": "\"Beano\" Annual, The",
+        "AuthorId": 65,
+        "Author": "Multiple Author\\'s",
+        "PublicationYear": 2004,
+        "Genres": ["Children\\'s", "Annuals"]
+    },
+    {
+        "BookId": 92,
+        "Title": "White Teeth",
+        "AuthorId": 60,
+        "Author": "Smith, Zadie",
+        "PublicationYear": 2001,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 93,
+        "Title": "House at Riverton, The",
+        "AuthorId": 45,
+        "Author": "Morton, Kate",
+        "PublicationYear": 2007,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 94,
+        "Title": "Book Thief, The",
+        "AuthorId": 67,
+        "Author": "Zusak, Markus",
+        "PublicationYear": 2007,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 95,
+        "Title": "Nights of Rain and Stars",
+        "AuthorId": 5,
+        "Author": "Binchy, Maeve",
+        "PublicationYear": 2005,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 96,
+        "Title": "Ghost, The",
+        "AuthorId": 25,
+        "Author": "Harris, Robert",
+        "PublicationYear": 2008,
+        "Genres": ["General", "Fiction"]
+    },
+    {
+        "BookId": 97,
+        "Title": "Happy Days with the Naked Chef",
+        "AuthorId": 50,
+        "Author": "Oliver, Jamie",
+        "PublicationYear": 2001,
+        "Genres": ["Food", "Drink", "General"]
+    },
+    {
+        "BookId": 98,
+        "Title": "Hunger Games, The, Hunger Games Trilogy",
+        "AuthorId": 13,
+        "Author": "Collins, Suzanne",
+        "PublicationYear": 2011,
+        "Genres": ["Young Adult", "Fiction"]
+    },
+    {
+        "BookId": 99,
+        "Title": "Lost Boy, The, A Foster Child\\'s Search for the Love of a Family",
+        "AuthorId": 53,
+        "Author": "Pelzer, Dave",
+        "PublicationYear": 2001,
+        "Genres": ["Biography", "General"]
+    },
+    {
+        "BookId": 100,
+        "Title": "Jamie\\'s Ministry of Food, Anyone Can Learn to Cook in 24 Hours",
+        "AuthorId": 50,
+        "Author": "Oliver, Jamie",
+        "PublicationYear": 2008,
+        "Genres": ["Food", "Drink", "General"]
+    }
+]
