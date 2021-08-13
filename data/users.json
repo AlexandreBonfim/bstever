@@ -1,128 +1,130 @@
-[
+{
+  "users": [
     {
-        "UserId": 1,
-        "Name": "Solomon Cervantes",
-        "ClubIds": [2, 4, 5],
-        "AuthorIds": [4, 12, 55, 63],
-        "Genres": ["Autobiography", "Biography", "The Arts", "Current Affairs"]
+        "userId": 1,
+        "name": "Solomon Cervantes",
+        "clubIds": [2, 4, 5],
+        "authorIds": [4, 12, 55, 63],
+        "genres": ["Autobiography", "Biography", "The Arts", "Current Affairs"]
     },
     {
-        "UserId": 2,
-        "Name": "Harris Schmidt",
-        "ClubIds": [1, 2],
-        "AuthorIds": [1, 3, 48, 49, 53],
-        "Genres": ["Children\"s", "General", "Food", "Young Adult"]
+        "userId": 2,
+        "name": "Harris Schmidt",
+        "clubIds": [1, 2],
+        "authorIds": [1, 3, 48, 49, 53],
+        "genres": ["Children\"s", "General", "Food", "Young Adult"]
     },
     {
-        "UserId": 3,
-        "Name": "Perry Ortega",
-        "ClubIds": [1, 3, 5],
-        "AuthorIds": [1, 4, 55, 67],
-        "Genres": ["Crime", "Thriller", "Adventure", "Romance", "Fantasy"]
+        "userId": 3,
+        "name": "Perry Ortega",
+        "clubIds": [1, 3, 5],
+        "authorIds": [1, 4, 55, 67],
+        "genres": ["Crime", "Thriller", "Adventure", "Romance", "Fantasy"]
     },
     {
-        "UserId": 4,
-        "Name": "Polly Holman",
-        "ClubIds": [2, 4, 5],
-        "AuthorIds": [63, 67],
-        "Genres": ["Current Affairs", "Issues", "Thriller", "Sagas"]
+        "userId": 4,
+        "name": "Polly Holman",
+        "clubIds": [2, 4, 5],
+        "authorIds": [63, 67],
+        "genres": ["Current Affairs", "Issues", "Thriller", "Sagas"]
     },
     {
-        "UserId": 5,
-        "Name": "Taslima Leblanc",
-        "ClubIds": [1, 3],
-        "AuthorIds": [4, 5, 7, 42, 48],
-        "Genres": ["Fitness", "Diet", "Food", "Issues"]
+        "userId": 5,
+        "name": "Taslima Leblanc",
+        "clubIds": [1, 3],
+        "authorIds": [4, 5, 7, 42, 48],
+        "genres": ["Fitness", "Diet", "Food", "Issues"]
     },
     {
-        "UserId": 6,
-        "Name": "Kellan Goodman",
-        "ClubIds": [1, 4, 5],
-        "AuthorIds": [42],
-        "Genres": ["Fitness", "Diet", "Humuor", "Young Adult"]
+        "userId": 6,
+        "name": "Kellan Goodman",
+        "clubIds": [1, 4, 5],
+        "authorIds": [42],
+        "genres": ["Fitness", "Diet", "Humuor", "Young Adult"]
     },
     {
-        "UserId": 7,
-        "Name": "Lucia Willis",
-        "ClubIds": [3, 5],
-        "AuthorIds": [1, 2, 3, 5, 8, 13, 21],
-        "Genres": ["Food", "General", "Issues", "Children\"s", "Biography"]
+        "userId": 7,
+        "name": "Lucia Willis",
+        "clubIds": [3, 5],
+        "authorIds": [1, 2, 3, 5, 8, 13, 21],
+        "genres": ["Food", "General", "Issues", "Children\"s", "Biography"]
     },
     {
-        "UserId": 8,
-        "Name": "Kier Mcloughlin",
-        "ClubIds": [4, 5],
-        "AuthorIds": [23, 30, 50, 62],
-        "Genres": ["Humour", "Fiction", "General", "Science", "Fantasy", "Sagas"]
+        "userId": 8,
+        "name": "Kier Mcloughlin",
+        "clubIds": [4, 5],
+        "authorIds": [23, 30, 50, 62],
+        "genres": ["Humour", "Fiction", "General", "Science", "Fantasy", "Sagas"]
     },
     {
-        "UserId": 9,
-        "Name": "Jessie Lamb",
-        "ClubIds": [1, 2, 4],
-        "AuthorIds": [18, 20, 46, 51, 58],
-        "Genres": ["Media", "Food", "Popular Science"]
+        "userId": 9,
+        "name": "Jessie Lamb",
+        "clubIds": [1, 2, 4],
+        "authorIds": [18, 20, 46, 51, 58],
+        "genres": ["Media", "Food", "Popular Science"]
     },
     {
-        "UserId": 10,
-        "Name": "Fleur Sawyer",
-        "ClubIds": [2, 3, 5],
-        "AuthorIds": [2, 5, 11, 31],
-        "Genres": ["Science", "Fiction", "Fantasy"]
+        "userId": 10,
+        "name": "Fleur Sawyer",
+        "clubIds": [2, 3, 5],
+        "authorIds": [2, 5, 11, 31],
+        "genres": ["Science", "Fiction", "Fantasy"]
     },
     {
-        "UserId": 11,
-        "Name": "Charis Chase",
-        "ClubIds": [3, 5],
-        "AuthorIds": [3, 4, 48, 55, 67],
-        "Genres": ["Current Affairs", "Food", "Humour"]
+        "userId": 11,
+        "name": "Charis Chase",
+        "clubIds": [3, 5],
+        "authorIds": [3, 4, 48, 55, 67],
+        "genres": ["Current Affairs", "Food", "Humour"]
     },
     {
-        "UserId": 12,
-        "Name": "Brent Kirkpatrick",
-        "ClubIds": [1, 4, 5],
-        "AuthorIds": [13, 20, 21, 49],
-        "Genres": ["Children\"s", "General", "Popular Science", "Fantasy"]
+        "userId": 12,
+        "name": "Brent Kirkpatrick",
+        "clubIds": [1, 4, 5],
+        "authorIds": [13, 20, 21, 49],
+        "genres": ["Children\"s", "General", "Popular Science", "Fantasy"]
     },
     {
-        "UserId": 13,
-        "Name": "Hester Nieves",
-        "ClubIds": [2, 3, 4],
-        "AuthorIds": [5, 12, 13, 46, 49, 60],
-        "Genres": ["Crime", "Adventure", "Romance", "Sagas"]
+        "userId": 13,
+        "name": "Hester Nieves",
+        "clubIds": [2, 3, 4],
+        "authorIds": [5, 12, 13, 46, 49, 60],
+        "genres": ["Crime", "Adventure", "Romance", "Sagas"]
     },
     {
-        "UserId": 14,
-        "Name": "Arsalan O\"Connor",
-        "ClubIds": [1, 4],
-        "AuthorIds": [7, 30, 46],
-        "Genres": ["Fitness", "Food", "Fiction Fantasy"]
+        "userId": 14,
+        "name": "Arsalan O\"Connor",
+        "clubIds": [1, 4],
+        "authorIds": [7, 30, 46],
+        "genres": ["Fitness", "Food", "Fiction Fantasy"]
     },
     {
-        "UserId": 15,
-        "Name": "Matteo Howard",
-        "ClubIds": [1, 5],
-        "AuthorIds": [1, 63, 65],
-        "Genres": ["Autobiography", "The Arts", "Sagas", "Popular Science"]
+        "userId": 15,
+        "name": "Matteo Howard",
+        "clubIds": [1, 5],
+        "authorIds": [1, 63, 65],
+        "genres": ["Autobiography", "The Arts", "Sagas", "Popular Science"]
     },
     {
-        "UserId": 16,
-        "Name": "Selena Bannister",
-        "ClubIds": [2, 3, 5],
-        "AuthorIds": [9, 35, 38, 42],
-        "Genres": ["Adventure", "Thriller", "Fantasy", "General"]
+        "userId": 16,
+        "name": "Selena Bannister",
+        "clubIds": [2, 3, 5],
+        "authorIds": [9, 35, 38, 42],
+        "genres": ["Adventure", "Thriller", "Fantasy", "General"]
     },
     {
-        "UserId": 17,
-        "Name": "Aislinn Bond",
-        "ClubIds": [1, 2, 3],
-        "AuthorIds": [7, 9, 55, 58],
-        "Genres": ["Media", "General", "Popular Science"]
+        "userId": 17,
+        "name": "Aislinn Bond",
+        "clubIds": [1, 2, 3],
+        "authorIds": [7, 9, 55, 58],
+        "genres": ["Media", "General", "Popular Science"]
     },
     {
-        "UserId": 18,
-        "Name": "Raheel Fletcher",
-        "ClubIds": [2, 4],
-        "AuthorIds": [34, 40, 61, 62, 64],
-        "Genres": ["Media", "Food", "Humour", "Young Adult"]
+        "userId": 18,
+        "name": "Raheel Fletcher",
+        "clubIds": [2, 4],
+        "authorIds": [34, 40, 61, 62, 64],
+        "genres": ["Media", "Food", "Humour", "Young Adult"]
     }
-]
+  ]
+}

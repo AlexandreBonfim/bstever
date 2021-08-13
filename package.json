@@ -4,7 +4,7 @@
   "description": "The BSTEVER coding test.",
   "main": "./dist/main.js",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/book-club",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src",
     "test": "NODE_ENV=test jest --runInBand --forceExit --detectOpenHandles"
   },
   "keywords": [],
