@@ -2,7 +2,7 @@ import { User } from './users.types'
 import { getUsers } from './users.store'
 
 const getUser = (id: number): User => {
-  const user: User = getUsers().find((item) => item.userId === id)
+  const user: User = getUsers().find(({ userId }) => userId === id)
 
   if (!user) {
     throw new Error('User not found')
@@ -11,4 +11,14 @@ const getUser = (id: number): User => {
   return user
 }
 
-export { getUser }
+const getUsersFromClub = (id: number): User[] => {
+    const users = getUsers().filter(({ clubIds }) => clubIds.includes(id))
+
+    if (users.length <= 0) {
+      throw new Error('No user with club id')
+    }
+
+    return users
+}
+
+export { getUser, getUsersFromClub }

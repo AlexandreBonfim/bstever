@@ -4,11 +4,17 @@ export type Book = {
   authorId: number,
   author: string,
   publicationYear: number,
-  genres: Array<string>,
+  genres: Array<string>
 }
 
 export type Suggestion = {
   title: string,
   author: string,// formatted to {firstName} {lastName}
-  genres: Array<string>,
+  genres: Array<string>
 }
+
+export type Priority = {
+  authorIds: Array<number>
+  genres: Array<string>
+}
+
