@@ -8,22 +8,22 @@ const routes: Router = express.Router()
 
 // Middleware
 const verifyRequest = (req: Request, res: Response, next: NextFunction) => {
-  const { userId, clubId } = req.body
+  const { userId, clubId } = req.query
 
   if (!userId) return res.status(500).json({message :'Missing user id'})
   if (!clubId) return res.status(500).json({message :'Missing club id'})
 
-  const user: User = getUser(userId)
+  const user: User = getUser(Number(userId))
 
   if (!user) return res.status(400).json({message :'User not found'})
 
   res.locals.user = user
-  res.locals.clubId = clubId
+  res.locals.clubId = Number(clubId)
 
   return next();
 }
 
-routes.post('/suggestions', verifyRequest,(req: Request, res: Response, next: NextFunction) => {
+routes.get('/suggestions', verifyRequest,(req: Request, res: Response, next: NextFunction) => {
   const { locals: { user, clubId }} = res;
   const result = getSuggestions(user, clubId)
 

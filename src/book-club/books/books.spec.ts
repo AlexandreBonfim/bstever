@@ -54,9 +54,9 @@ describe('Books Module', () => {
     })
   })
 
-  // describe('getSuggestions', () => {
-  //   test('should return list of books suggested', () => {
-  //     expect(getSuggestions(mockUser, 2)).toEqual(expect.arrayContaining(mockSuggestionResponse))
-  //   })
-  // })
+  describe('getSuggestions', () => {
+    test('should return list of books suggested', () => {
+      expect(getSuggestions(mockUser, 2)).toEqual(mockSuggestionResponse)
+    })
+  })
 })

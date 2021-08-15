@@ -17,13 +17,12 @@ const priority = (id: number): Priority => {
   const genres = [].concat(...getUsersFromClub(id).map((x => x.genres)))
 
   // Remove duplicates
-  const uniqueAuthorIds = new Set(authorIds)
-  const uniqueGenres = new Set(genres)
+  const uniqueAuthorIds = Array.from(new Set(authorIds))
+  const uniqueGenres = Array.from(new Set(genres))
 
   return {
-    // Convert back to array
-    authorIds: [...uniqueAuthorIds],
-    genres: [...uniqueGenres]
+    authorIds: uniqueAuthorIds,
+    genres: uniqueGenres
   }
 }
 
@@ -37,7 +36,7 @@ const formattedResponse = (books: Book[]): Suggestion[] => {
     const author = book.author.split(',')
     const  suggestion: Suggestion = {
       title: book.title,
-      author: `${author[1]} ${author[0]}`,
+      author: `${author[1].trimStart()} ${author[0]}`,
       genres: book.genres
     }
 
@@ -114,15 +113,22 @@ const getSuggestions = (user: User, clubId: number): Suggestion[] => {
   /**
   * Books 13-15: Matching all Authors of the Club’s User that are not shared between all of the Club’s Users.
   */
-  const booksFromAuthorsNotShared = sortByYear(books.filter(({ authorId }) => !(priority(clubId).authorIds).includes(authorId)))// @ todo logic wrong not in users instead priority
+  const booksFromAuthorsNotShared = sortByYear(books.filter(({ authorId }) => !(priorityByClub.authorIds).includes(authorId)))
 
-  return [ // @todo The entire list should not contain any duplicate entries.
+  const bookList = [
     ...formattedResponse(booksFromAuthorsPriority),
     ...formattedResponse(booksFromGenresPriority),
     ...formattedResponse(authorFromUser),
     ...formattedResponse(authorFromGenres),
     ...formattedResponse(booksFromAuthorsNotShared)
   ]
+
+  /**
+  * The entire list should not contain any duplicate entries.
+  */
+  const uniqueBooks = [...new Map(bookList.map(item => [JSON.stringify(item), item])).values()];
+
+  return uniqueBooks
 }
 
 export { getSuggestions, getMany }
