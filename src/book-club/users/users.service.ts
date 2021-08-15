@@ -21,4 +21,8 @@ const getUsersFromClub = (id: number): User[] => {
     return users
 }
 
-export { getUser, getUsersFromClub }
+const getMany = (): User[] => {
+  return getUsers()
+}
+
+export { getUser, getMany, getUsersFromClub }

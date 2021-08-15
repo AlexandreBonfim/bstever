@@ -1,4 +1,4 @@
-import { getUser, getUsersFromClub } from './users.service'
+import { getUser, getUsersFromClub, getMany } from './users.service'
 import { mockUsers } from './users.mock'
 
 jest.mock('./users.store', () => ({
@@ -40,6 +40,12 @@ describe('Users Module', () => {
 
     test('should throw an error if club id has no users', () => {
       expect(() => getUsersFromClub(10)).toThrowError()
+    })
+  })
+
+  describe('getMany', () => {
+    test('should return all the users', () => {
+      expect(getMany()).toEqual(mockUsers)
     })
   })
 })
