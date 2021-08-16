@@ -60,9 +60,7 @@ const mostPopularByUsers = (data: any[]): any => {
 
   const popular = Object.keys(counted).reduce((a, b) => counted[a] > counted[b] ? a : b);
 
-  // return popular;
-
-  return counted
+  return popular;
 }
 
 const getMany = (): Book[] => {
@@ -78,27 +76,25 @@ const getSuggestions = (user: User, clubId: number): Suggestion[] => {
   * Books 1-3: Matching all shared Authors (prioritized by number of users sharing the same Author) of all Users in the Club.
   *   If none are shared, fallback to most popular by all Users.
   */
-  const booksFromAuthorsPriority = sortByYear(books.filter(({ authorId }) => (priorityByClub.authorIds).includes(authorId)))
+  let booksFromAuthorsPriority = sortByYear(books.filter(({ authorId }) => (priorityByClub.authorIds).includes(authorId)))
 
-  // @todo : return only one or list of popular in case of === result
-  // if (booksFromAuthorsPriority.length <= 0) {
-  //   const authors = [].concat(...allUsers().map((x => x.authorIds)))
+  if (booksFromAuthorsPriority.length <= 0) {
+    const authorsFromUsers = [].concat(...allUsers().map((x => x.authorIds)))
 
-  //   mostPopularByUsers(authors)
-  // }
+    booksFromAuthorsPriority = sortByYear(books.filter(({ authorId }) => authorId === Number(mostPopularByUsers(authorsFromUsers))))
+  }
 
   /**
   * Books 4-6: Matching all shared Genres (prioritized by number of users sharing the same Genres) of all Users in the Club.
   *   If none are shared, fallback to most popular by all Users.
   */
-  const booksFromGenresPriority = sortByYear(books.filter(({ genres }) => genres.some(genre => priorityByClub.genres.includes(genre))))
+  let booksFromGenresPriority = sortByYear(books.filter(({ genres }) => genres.some(genre => priorityByClub.genres.includes(genre))))
 
-  // @todo : return only one or list of popular in case of === result
-  // if (booksFromAuthorsPriority.length <= 0) {
-  //   const authors = [].concat(...allUsers().map((x => x.authorIds)))
+  if (booksFromGenresPriority.length <= 0) {
+    const genresFromUsers = [].concat(...allUsers().map((x => x.genres)))
 
-  //   mostPopularByUsers(authors)
-  // }
+    booksFromGenresPriority = sortByYear(books.filter(({ genres }) => genres.some(genre => genre ===mostPopularByUsers(genresFromUsers))))
+  }
 
   /**
   * Books 7-9: Matching all Authors of the specified User.

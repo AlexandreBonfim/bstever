@@ -48,6 +48,16 @@ describe('Books Module', () => {
     })
   })
 
+  describe('mostPopularByUsers', () => {
+    test('should return author', () => {
+      expect(mostPopularByUsers(mockPriorityResponse.authorIds)).toEqual('67')
+    })
+
+    test('should return genre', () => {
+      expect(mostPopularByUsers(mockPriorityResponse.genres)).toEqual('Fiction Fantasy')
+    })
+  })
+
   describe('getMany', () => {
     test('should return all the books', () => {
       expect(getMany()).toEqual(mockBooks)
