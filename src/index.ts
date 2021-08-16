@@ -13,7 +13,7 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   next()
 })
 
-app.get('health', (req, res) => {
+app.get('/health', (req, res) => {
   res.json({ isAlive: true })
 })
 
