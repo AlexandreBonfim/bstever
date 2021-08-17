@@ -93,7 +93,7 @@ const getSuggestions = (user: User, clubId: number): Suggestion[] => {
   if (booksFromGenresPriority.length <= 0) {
     const genresFromUsers = [].concat(...allUsers().map((x => x.genres)))
 
-    booksFromGenresPriority = sortByYear(books.filter(({ genres }) => genres.some(genre => genre ===mostPopularByUsers(genresFromUsers))))
+    booksFromGenresPriority = sortByYear(books.filter(({ genres }) => genres.includes(mostPopularByUsers(genresFromUsers))))
   }
 
   /**

@@ -1,4 +1,4 @@
-# BSTEVER Challenges
+# BSTEVER Challenge
 
 Welcome to the backend project.
 
@@ -18,6 +18,8 @@ In order to start the backend server, follow these steps:
 - Open a terminal in the `/bstever` folder
 - Install packages using `yarn`
 - Run the server using `yarn dev`
-- Check the server is running correctly by perform a GET request to http://localhost:4000/books
+- Check the server is running correctly by perform a GET request to http://localhost:4000/books/suggestions?userId=1&clubId=2
 
+## Tests
 
+You can run the test suites via the `yarn test` command in the `./bstever` folder.
